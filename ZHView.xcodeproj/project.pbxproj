@@ -17,6 +17,7 @@
 		0F4E28C51F1F5DF300782F15 /* ZHViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28C41F1F5DF300782F15 /* ZHViewTests.m */; };
 		0F4E28D01F1F5DF300782F15 /* ZHViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28CF1F1F5DF300782F15 /* ZHViewUITests.m */; };
 		0F4E28DF1F1F5F0400782F15 /* ZHGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28DE1F1F5F0400782F15 /* ZHGradientView.m */; };
+		0FA0EFB52043FA0F007E3A97 /* ZHMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0EFB42043FA0F007E3A97 /* ZHMarqueeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		0F4E28D11F1F5DF300782F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F4E28DD1F1F5F0400782F15 /* ZHGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGradientView.h; sourceTree = "<group>"; };
 		0F4E28DE1F1F5F0400782F15 /* ZHGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGradientView.m; sourceTree = "<group>"; };
+		0FA0EFB32043FA0F007E3A97 /* ZHMarqueeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHMarqueeView.h; sourceTree = "<group>"; };
+		0FA0EFB42043FA0F007E3A97 /* ZHMarqueeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHMarqueeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				0F4E28AE1F1F5DF200782F15 /* ViewController.m */,
 				0F4E28DD1F1F5F0400782F15 /* ZHGradientView.h */,
 				0F4E28DE1F1F5F0400782F15 /* ZHGradientView.m */,
+				0FA0EFB32043FA0F007E3A97 /* ZHMarqueeView.h */,
+				0FA0EFB42043FA0F007E3A97 /* ZHMarqueeView.m */,
 				0F4E28B01F1F5DF200782F15 /* Main.storyboard */,
 				0F4E28B61F1F5DF200782F15 /* Assets.xcassets */,
 				0F4E28B81F1F5DF300782F15 /* LaunchScreen.storyboard */,
@@ -289,6 +294,7 @@
 				0F4E28DF1F1F5F0400782F15 /* ZHGradientView.m in Sources */,
 				0F4E28AC1F1F5DF200782F15 /* AppDelegate.m in Sources */,
 				0F4E28A91F1F5DF200782F15 /* main.m in Sources */,
+				0FA0EFB52043FA0F007E3A97 /* ZHMarqueeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

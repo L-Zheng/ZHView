@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZHGradientView.h"
+#import "ZHMarqueeView.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,7 @@
     [super viewDidLoad];
     
     [self testGradientView];
+    [self testMarqueeView];
 }
 
 
@@ -28,6 +30,22 @@
     view.beginColor = [UIColor orangeColor];
     view.endColor = [UIColor redColor];
     [self.view addSubview:view];
+}
+
+- (void)testMarqueeView{
+    ZHMarqueeView *view = [[ZHMarqueeView alloc] initWithFrame:CGRectMake(100, 300, 200, 0)];
+    view.backgroundColor = [UIColor cyanColor];
+    
+    UILabel *titleLabel = [[UILabel alloc] init];
+    titleLabel.text = @"爱爱奶女爱那若怒uua";
+    titleLabel.textColor = [UIColor orangeColor];
+    titleLabel.font = [UIFont systemFontOfSize:15];
+    
+    view.titleLabel = titleLabel;
+    
+    [self.view addSubview:view];
+    
+    [view startAnimation];
 }
 
 
